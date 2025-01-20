@@ -1,9 +1,10 @@
 import React from 'react';
+import Dashboard from './Pages/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Perprodesk</h1>
+    <div className="App w-100">
+      <Dashboard />
     </div>
   );
 }
