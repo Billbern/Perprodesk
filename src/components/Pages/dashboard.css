@@ -1,8 +1,7 @@
-body .App .dashboard {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  background-color: #ebebeb;
+body .app .dashboard {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    background-color: #ebebeb;
+    gap: 1rem;
 }

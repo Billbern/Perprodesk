@@ -1,4 +1,15 @@
-:root{
-    --sidebar-color: #fafafa;
+.app .dashboard .sidebar-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--sidebar-color);
 }
 
+.app .dashboard .sidebar-main .start-nav > ul li, 
+.app .dashboard .sidebar-main .end-nav > ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1.25rem;
+    gap: 0.725rem;
+}

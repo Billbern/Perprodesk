@@ -1,9 +1,10 @@
 import React from 'react';
 import Dashboard from './Pages/Dashboard';
+import "./app.css"
 
 function App() {
   return (
-    <div className="App w-100">
+    <div className="app">
       <Dashboard />
     </div>
   );
